@@ -1,0 +1,3 @@
+# Individual-Project-unit-2-
+ As  started Masai School To build up our carrier as a MERN STACK DEVELOPER. I'm learning since Jan 26-2022. Now build a beautiful Zee5 Clone website with help of Html,css,Js concept that teach in #unit-2 .  -->During this project, I faced many chanllenges likes- making responsive, but with help of our senior and google,bootsrap framework also help lots  to complete this website.   -->Following are the main technologies used in order to construct this frontend  . HTML . CSS . JavaScript
+![Screenshot (1875)](https://user-images.githubusercontent.com/100846744/167242299-99b045c1-a32b-4eaa-bc06-05a9ba47281b.png)
