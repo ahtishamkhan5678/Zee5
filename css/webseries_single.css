@@ -1,0 +1,229 @@
+
+  #showDetailBaner{
+    
+    background-image: url("https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-6-4z587408/cover/1170x658withlogofb9a66cb7e3143bf9ada989468fa3fff.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 550px;
+    width:100%;
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .BannerDetails{
+    
+    margin-left:6%;
+    position: absolute;
+    margin-top: 20px;
+    height: auto;
+  }
+  .bannerHed{
+    font-size: 2.2rem;
+    line-height: 1.36364em;
+    font-weight: 700;
+    color: white;
+  }
+  .metaInfo>ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-20px;
+    color: rgb(165, 150, 150);
+    font-weight: bold;
+  }
+  
+  .metaInfo>ul>li{
+    font-size: 14px;
+    margin-left:20px;
+    
+  }
+  .metaInfo{
+    line-height: 40px;
+    margin-top: 20px;
+  }
+
+  
+  .Audio{
+   color: white;
+   font-weight: bold;
+   font-size: 14px;
+  }
+  .Audio>span{
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .Subtitle{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+   }
+   .Subtitle>span{
+     font-size: 14px;
+     font-weight: normal;
+   }
+  
+   .discription{
+     width: 60%;
+     font-size: 14px;
+     color: white;
+     line-height: 20px;
+   }
+  
+   .castWrap{
+     line-height: 90px;
+   }
+  
+   .castWrap>p{
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+   }
+   .castDisplayWrap{
+     display: flex;
+     width: 50%;
+     height: auto;
+     justify-content: space-between;
+    
+   }
+   .castWrapNae{
+     line-height: 23px;
+   }
+  .castWrapNae>span{
+    color: white;
+   }
+  
+   .castWrapNae>p{
+    color:  #a785ff;;
+  }
+  
+
+  .iconDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .iconDiv >.left{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+.left i{
+  font-size: 30px;
+  color: #fff;
+}
+.left p{
+  font-weight: 500;
+  color: #fff;
+}
+#play p{
+    margin-left: -20px;
+}
+  .iconDiv> .right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+  }
+  .right i{
+    font-size: 30px;
+    color: #fff;
+  }
+/* ----------------------accordion------------------ */
+  .accordion {
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.8s;
+    background-color:#160424;
+    font-weight: bold;
+    position: relative;
+  }
+  .accordion p{
+    margin-top: 2%;
+  width: 80%;
+  font-weight:normal;
+  font-size: 14px;
+}
+  
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    color: #fff;
+    background-color:#110718;
+    font-size: 14px;
+
+  }
+
+  .arrow {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    /* transform: rotate(180deg); */
+    transition: 0.3s all ease-in-out;
+  }
+  .rotate{
+    transform: rotate(180deg);
+  }
+ 
+
+@media  screen and (max-width:860px) {
+  .bannerHed{
+    font-size: 20px;
+
+  }
+  .metaInfo>ul>li{
+    font-size: 10px;
+    margin-left:20px;
+    
+  }
+
+  .Audio{
+
+    font-size: 10px;
+   }
+   .Audio>span{
+     font-size: 10px;
+   }
+   
+   .Subtitle{
+
+     font-size: 10px;
+    }
+    .Subtitle>span{
+      font-size: 10px;
+    }
+   
+    .discription{
+      font-size: 10px;
+
+    }
+
+    .iconDiv{
+      display: none;
+    }
+    .castWrap{
+      display: none;
+    }
+
+    #showDetailBaner{
+      height: 400px;
+      object-fit: cover;
+    }
+}
+
+@media (min-width:51px) and (max-width: 381px) {
+
+    #showDetailBaner{
+      height: 350px;
+      object-fit: cover;
+    }
+
+}
